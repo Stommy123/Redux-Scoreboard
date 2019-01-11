@@ -25,10 +25,10 @@ const initialState = {
 
 export default function Player(state=initialState, action) {	
 
-	let date = new Date();
-	let day = date.getDate();
-	let month = date.getMonth()+1;
-	let year = date.getFullYear();
+	const date = new Date();
+	const day = date.getDate();
+	const month = date.getMonth()+1;
+	const year = date.getFullYear();
 	
 	switch(action.type){
 		case PlayerActionTypes.ADD_PLAYER: {

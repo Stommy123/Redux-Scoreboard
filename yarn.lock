@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@rematch/core@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@rematch/core/-/core-1.0.6.tgz#84677e62111f7d720c3ec552c1f9916353f4cbc3"
+  integrity sha512-xz7tA3lJvMHbRXkKcjc4/fbTX3X7GjcfPojXq40Qdw5caF3B5tmu9lslpK9lcOhPk/nDeDqdF2WIrVQrFZAbRA==
+  dependencies:
+    redux "4.0.0"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -3446,6 +3453,14 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
+redux@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.0.tgz#aa698a92b729315d22b34a0553d7e6533555cc03"
+  integrity sha512-NnnHF0h0WVE/hXyrB6OlX67LYRuaf/rJcbWvnHHEPCF/Xa/AZpwhs/20WyqzQae5x4SD2F9nPObgBh2rxAgLiA==
+  dependencies:
+    loose-envify "^1.1.0"
+    symbol-observable "^1.2.0"
+
 redux@^3.6.0:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/redux/-/redux-3.7.2.tgz#06b73123215901d25d065be342eb026bc1c8537b"
@@ -3949,7 +3964,7 @@ supports-color@^3.1.0, supports-color@^3.1.1:
   dependencies:
     has-flag "^1.0.0"
 
-symbol-observable@^1.0.3:
+symbol-observable@^1.0.3, symbol-observable@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
   integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
